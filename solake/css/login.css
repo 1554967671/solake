@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#login-user{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*登陆页面顶部*/
+.page-top{
+	width: 100%;
+	height: 120px;
+}
+.top-main{
+	width: 60%;
+	height: 100%;
+	background: bisque;
+	margin: 0 auto;
+}
+.logo-href{
+	float: left;
+	width: 200px;
+	height: 100%;
+	background: aliceblue;
+}
+
+
+
+.page-mid{
+	width: 100%;
+	height: 560px;
+	background: cornflowerblue;
+}
+
+
+
+
+
+.page-last{
+	width: 100%;
+	height: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
