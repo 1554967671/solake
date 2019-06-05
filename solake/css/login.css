@@ -6,6 +6,17 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
+a{
+	text-decoration: none;
+}
+
+.active-href{
+	transition: all 0.2s;
+    /* Safari */
+    -webkit-transition: all 0.2s;
+}
+
+
 #login-user{
 	width: 100%;
 	height: 100%;
@@ -20,28 +31,185 @@ html,body{
 .top-main{
 	width: 60%;
 	height: 100%;
-	background: bisque;
+	/*background: bisque;*/
 	margin: 0 auto;
 }
 .logo-href{
 	float: left;
 	width: 200px;
 	height: 100%;
-	background: aliceblue;
+}
+.logo-href img{
+	width: 200px;
+	height: 160px;
+}
+.logo-word{
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	color: #6495ED;
 }
 
 
-
+/*登陆页面中部*/
 .page-mid{
 	width: 100%;
 	height: 560px;
 	background: cornflowerblue;
 }
 
+/*登陆区域*/
+.login-box{
+	float: left;
+	margin-left: 60%;
+	margin-top: 60px;
+	width: 380px;
+	height: 420px;
+	background: white;
+}
+.login-box-head{
+	width: 100%;
+	height: 80px;
+}
+
+.login-box-head span{
+	float: left;
+	margin-left: 25%;
+	text-align: center;
+	font-size: 22px;
+	line-height: 80px;
+	width: 50%;
+	height: 80px;
+}
+/*登陆框主体*/
+.login-box-body{
+	float: left;
+	margin-left: 50px;
+	width: 280px;
+	height: 300px;
+	
+}
+/*分割线*/
+.box-line{
+	float: left;
+	width: 280px;
+	height: 3px;
+	background: #6495ED;
+}
+/*用户名*/
+#name-div{
+	float: left;
+	margin-top: 20px;
+	width: 278px;
+	height: 38px;
+	border: 1px solid darkgray;
+}
+.user-name{
+	float: left;
+	width: 266px;
+	height: 38px;
+	font-size: 16px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	caret-color: #6495ED;
+}
+/*密码*/
+#pass-div{
+	float: left;
+	margin-top: 20px;
+	width: 278px;
+	height: 38px;
+	border: 1px solid  darkgray;
+	/*outline: 1px solid #00c1de;*/
+}
+.pass-word{
+	float: left;
+	width: 232px;
+	height: 38px;
+	font-size: 16px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	caret-color: #6495ED;
+}
+#pass-div i{
+	float: left;
+	margin-left: 3px;
+	margin-top: 4px;
+	width: 30px;
+	height: 30px;
+	background: #6495ED;
+}
+
+
+/*验证码区域*/
+.yz-code{
+	float: left;
+	margin-top: 20px;
+	width: 140px;
+	height: 34px;
+	font-size: 16px;
+	padding-left: 10px;
+	caret-color: #6495ED;
+}
+.yz-ref{
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 110px;
+	height: 38px;
+	background: antiquewhite;
+}
+
+/*保存密码*/
+.show-pass {
+	float: left;
+	margin-top: 12px;
+}
+.show-pass input{
+	float: left;
+	margin-top: 4px;
+	width: 16px;
+	height: 16px;
+}
+
+.about-pass a{
+	float: right;
+	margin-top: 12px;
+}
+
+
+/*登陆按钮*/
+#login-btn{
+	cursor: pointer;
+	float: left;
+	margin-top: 18px;
+	width: 280px;
+	height: 38px;
+	background: #6495ED;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 20px;
+	color: white;
+}
+#login-btn:hover{
+	background: deepskyblue;
+}
+#login-btn:active{
+	background: #6495ED;
+}
 
 
 
 
+
+
+
+
+/*登陆页面底部*/
 .page-last{
 	width: 100%;
 	height: 140px;

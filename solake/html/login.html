@@ -5,12 +5,15 @@
 		<title>solake - 用户登陆</title>
 	</head>
 	<link rel="stylesheet" href="../css/login.css" />
-	<body>
+	<script type="text/javascript" src="../js/jquery-3.3.1.min.js" ></script>
+	<body oncontextmenu='return false' ondragstart='return false' onselectstart ='return false' >
+		<!--主体布局-->
 		<div id="login-user">
+			<!--顶部布局-->
 			<div class="page-top">
 				<div class="top-main">
 					<a class="logo-href" href="index.html">
-						<img src="" />
+						<img src="../img/logo.png" />
 					</a>
 					<h1 class="logo-word">
 						欢迎登陆
@@ -19,13 +22,57 @@
 				
 			</div>
 			<div class="page-mid">
-				
+				<div class="show-pic">
+					
+				</div>
+				<div class="login-box">
+					<div class="login-box-head">
+						<span>普通登陆</span>
+						<div class="login-safe"></div>
+					</div>
+					<form action="home.html">
+						<div class="login-box-body">
+							<div class="box-line"></div>
+							
+							<div id="name-div">
+								<input class="user-name" type="text" placeholder="邮箱/手机号码"/>
+							</div>
+							
+							<div id="pass-div">
+								<input class="pass-word" type="password" placeholder="密码"/>
+								<i></i>
+							</div>
+							
+							<div class="yz-div">
+								<input class="yz-code" type="text" placeholder="验证码"/>
+								<a class="yz-ref">
+									<img src=""/>
+								</a>
+							</div>
+							
+							<div class="about-pass">
+								<div class="show-pass">
+									<input type="checkbox"/>记住密码
+								</div>
+								<a href="#">忘记密码</a>
+							</div>
+							<div id="login-btn" class="active-href">登&emsp;陆</div>
+							
+						</div>
+					
+						<div class="login-box-bottom">
+						
+						</div>
+					</form>
+					
+				</div>
+				<div class="page-last">
+					
+				</div>
 			</div>
-			<div class="page-last">
-				
-			</div>
-		</div>
-		
+		</div>	
 		
 	</body>
+	<!--<script type="text/javascript" src="../js/login.js" ></script>-->
+	
 </html>
