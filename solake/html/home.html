@@ -2,8 +2,19 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>测试Flutter</title>
 	</head>
 	<body>
+		<input type="button" value="测试调用Flutter按钮" onclick="callFlutter()"/>
+		<p id="p1" ></p>
 	</body>
+	
+	<script type="text/javascript">
+		function callFlutter(){
+			Toast.postMessage("JS调用了Flutter!!");
+		}
+		function callJS(message){
+			document.getElementById("p1").innerHTML = message;
+		}
+	</script>
 </html>
